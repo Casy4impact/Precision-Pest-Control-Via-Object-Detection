@@ -56,22 +56,27 @@ ________________________________________
 - Purpose: Image operations
 - Why It Was Chosen: Real-time image preprocessing
 
-Scikit-learn	
+6. Scikit-learn	
 - Purpose: Evaluation, splitting	
 - Why It Was Chosen: Performance metrics and modeling utilities
 
-6. ImageDataGenerator & Augmentation Layers		
+7. ImageDataGenerator & Augmentation Layers		
 - Purpose: Image augmentation
 - Why It Was Chosen: Enhances diversity and mitigates overfitting
   
-7. EarlyStopping, ModelCheckpoint		
+8. EarlyStopping, ModelCheckpoint		
 - Purpose: Training optimization
 - Why It Was Chosen: Improves efficiency, retains best models
   
-8. Adam
+9. Adam
 - Purpose: Optimizer
 - Why It Was Chosen: Adaptive learning rate ensures convergence
 
+### Model Architecture
+- 🔹 Backbone: ResNet50
+- Transfers powerful feature extraction from ImageNet pretrained ResNet50.
+- Freezing base model to speed up training and preserve learned representations.
+  
 ## Project Scope and Workflow
 1. Data Collection
 - •	Captured from varied environments: forests, farms, roadsides, beaches for model robustness.
